@@ -38,10 +38,14 @@ There are two types of accounts:
 - Does not have a transaction limit
 - Has can have an unlimited number of transactions per day
 - Can have a negative balance
-  Withdraw - withdraws the provided value from the balance, balance can be negative
+
+Withdraw - withdraws the provided value from the balance, balance can be negative
+
   Deposit - deposits the provided value to the balance
+
   Reset - does nothing
-  Savings account:
+
+Savings account:
 - Has a transaction limit - provided by the constructor (or 1000 default) - maximum withdraw value
 - Has a maximum of 3 transactions per day
 - Can not have a negative balance
